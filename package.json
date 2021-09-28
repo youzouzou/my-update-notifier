@@ -1,0 +1,17 @@
+{
+  "name": "my-update-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "import-lazy": "^4.0.0",
+    "latest-version": "^5.1.0",
+    "semver": "^7.3.5"
+  }
+}
