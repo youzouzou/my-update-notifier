@@ -18,8 +18,8 @@ class MyUpdateNotifier {
       return;
     }
 
-    const latest = await latestVersion(name);
-    if (semver.gt(latest, version)) {
+    const latest = await latestVersion(name); // 获取到最新版本号
+    if (semver.gt(latest, version)) { // 最新版本号是否大于当前版本
       console.log("请更新")
     }
   }
