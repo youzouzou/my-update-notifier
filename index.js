@@ -18,9 +18,9 @@ class MyUpdateNotifier {
     }
 
     const latest = await latestVersion(name); // 获取到最新版本号
-    console.log("最新版本号", latest)
+    console.log(name + "最新版本号", latest)
     if (semver.gt(latest, version)) { // 最新版本号是否大于当前版本
-      console.log("请更新")
+      console.log("请把" + name + "从" + version + "更新到最新的" + latest)
     }
   }
 }
